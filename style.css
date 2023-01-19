@@ -229,4 +229,54 @@ body {
   background-color: #6B8B78;
   gap: 20px;
   font-family: Poppins;
+  position: relative;
+}
+
+.mobile-provider-wrapper img {
+  position: absolute;
+  left: 30%;
+  bottom: 65%;
+}
+
+.select-storage, .select-network, .select-condition{
+  color: white;
+  width: 40vh;
+}
+
+
+.first-select-storage {
+  font-size: 1.2rem;
+}
+
+.button {
+  background-color:  white; /* Green */
+  border: none;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+.button4 {border-radius: 25px;}
+
+.great-news {
+  margin-left: 150px;
+}
+.button-great-news {
+  font-size: 1.5rem;
+  border-radius: 25px;
+  background-color: #29BDAD;
+  color: white;
+  padding: 10px 20px;
+}
+
+.button-accept {
+  font-size: 1.5rem;
+  border-radius: 25px;
+  background-color: #384B54;
+  color: white;
+  padding: 10px 20px;
 }
