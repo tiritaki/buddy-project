@@ -109,6 +109,20 @@ body {
   padding: 10px 20px;
 }
 
+.earth-wrapper {
+  background-color: #D3D498;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+}
+
+.journey-of-tech {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 /* footer */
 
 .footer-left {
