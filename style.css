@@ -78,15 +78,38 @@ body {
   }
   
 /* body */
- .this-is-main {
-  background-color: #00aced;
-  height: 70vh;
-  text-align: center;
+ .your-old-tech-wrapper {
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+  font-size: 2.1rem;
+  gap: 200px;
  }
 
+ .value-color {
+  color: rgba(41,189,173,1);
+ }
+
+ .sell-your-used-phone {
+  font-size: 1rem;
+  line-height: 2rem;
+ }
+
+ .your-old-tech {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+ }
+ .discover-value-button {
+  font-size: 1rem;
+  border-radius: 25px;
+  background-color: #29BDAD;
+  color: white;
+  padding: 10px 20px;
+}
+
 /* footer */
-
-
 
 .footer-left {
   overflow: hidden;
