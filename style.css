@@ -79,9 +79,10 @@ body {
   
 /* body */
  .your-old-tech-wrapper {
-  height: 45vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 20px 20px;
   font-size: 2.1rem;
   gap: 200px;
@@ -122,6 +123,73 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+
+.grey-discover-value{
+  background-color: #D0D0D0;
+  height: 15vh;
+  display: flex;
+  padding: 2% 2%;
+  justify-content: center;
+}
+
+.how-it-wrapper {
+  background-color: #374b53;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.how-it-works-h2 h2 {
+  font-size: 3rem;
+  color: #29BDAD;
+}
+
+.how-it-wrapper p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.search-send-get-paid-icons {
+  display: flex;
+  gap: 250px;
+  align-items: center;
+}
+
+.search-send-get-paid-text {
+  display: flex;
+  gap: 300px;
+  align-items: center;
+}
+
+.search-send-get-paid-text p {
+  font-size: 1.2rem;
+  color: #FFBA13;
+}
+
+.send-tex-align {
+  padding-left: 30px;
+}
+
+.search-send-get-paid-paragraph {
+  display: flex;
+  gap: 140px;
+  align-items: center;
+}
+.search-send-get-paid-paragraph p {
+  font-size: 0.9rem;
+}
+
+.search-para-fix {
+  padding-left: 50px;
+}
+
+.send-para-fix {
+  padding-left: 25px;
 }
 /* footer */
 
